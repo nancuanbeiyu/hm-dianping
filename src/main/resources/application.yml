@@ -1,0 +1,13 @@
+#   1 Mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nuclear_power_data?useSSL=false
+    username: root
+    password: Q132457q
+
+
+server:
+  port: 8080
+
+
