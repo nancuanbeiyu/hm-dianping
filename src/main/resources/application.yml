@@ -2,7 +2,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/nuclear_power_data?useSSL=false
+    url: jdbc:mysql://localhost:3306/energy_saving_control?useSSL=false
     username: root
     password: Q132457q
 

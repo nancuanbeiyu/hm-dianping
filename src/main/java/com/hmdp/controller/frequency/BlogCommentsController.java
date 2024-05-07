@@ -1,12 +1,10 @@
-package com.hmdp.controller;
+package com.hmdp.controller.frequency;
 
 
 import com.hmdp.entity.frequency;
-import com.hmdp.service.impl.frequencyImpl;
+import com.hmdp.service.frequency.frequencyImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Map;
 
 
 @RestController

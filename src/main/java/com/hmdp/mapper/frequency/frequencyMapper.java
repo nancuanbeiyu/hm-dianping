@@ -1,4 +1,4 @@
-package com.hmdp.mapper;
+package com.hmdp.mapper.frequency;
 
  import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  import com.hmdp.entity.frequency;

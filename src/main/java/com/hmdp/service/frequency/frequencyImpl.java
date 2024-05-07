@@ -1,18 +1,15 @@
-package com.hmdp.service.impl;
+package com.hmdp.service.frequency;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 
 
 import com.hmdp.entity.frequency;
-import com.hmdp.service.frequencyService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 
 /**
@@ -27,7 +24,7 @@ import java.util.Map;
 public class frequencyImpl  implements frequencyService {
 
   @Autowired
-    private com.hmdp.mapper.frequencyMapper frequencyMapper;
+    private com.hmdp.mapper.frequency.frequencyMapper frequencyMapper;
 
   public frequency select(String name){
     QueryWrapper<frequency> queryWrapper=new QueryWrapper<>();

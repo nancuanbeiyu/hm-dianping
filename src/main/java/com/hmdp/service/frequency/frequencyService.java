@@ -1,4 +1,4 @@
-package com.hmdp.service;
+package com.hmdp.service.frequency;
 
 
 
